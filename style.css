@@ -1,0 +1,32 @@
+
+body{
+    background-color: rgb(201, 154, 177);
+}
+.one, img{
+    height: 800px;
+    width: 800px;
+    position: relative;
+    top: 50px;
+    left: 160px;
+}
+.two{
+    height: 250px;
+    width: 400px;
+    background-color: rgba(25, 160, 43, 0.466);
+    position: absolute;
+    z-index: 2;
+    top: 22em;
+    left: 34em;
+    border-radius: 50%;
+}
+p{
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 32px;
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    left: 10px;
+    top: 60px;
+}
